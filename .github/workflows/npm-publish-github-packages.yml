@@ -35,8 +35,3 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
-npm install --save-dev typescript @types/react @types/node
-
-git add .
-git commit -m "fix: add missing TypeScript dev dependencies"
-git push origin main
